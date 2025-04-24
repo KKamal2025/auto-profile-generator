@@ -19,4 +19,4 @@ if email:
     st.write(full_name)
 
     st.subheader("عکس پروفایل:")
-    st.image(image_url, caption="عکس تولید شده", use_column_width=True)
+    st.image(image_url, caption="عکس تولید شده", use_container_width=True)
